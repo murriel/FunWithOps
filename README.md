@@ -1,1 +1,6 @@
-# Utilities and fun with servers
+[in progress]
+
+# Living the Ops Life
+This repository is intended to be a personal collection of utilities, scripts, and other resources for systems administration and operations.
+
+More to come as new content is developed and as I extract useful information from sets of documentation and notes that I have accumulated over the years.
