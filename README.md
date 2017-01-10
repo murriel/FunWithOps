@@ -7,4 +7,3 @@ More to come as new content is developed and as I extract useful information fro
 
 # To-Do's
 - include a table of contents, possibly with some quick wget links to pull specific scripts on an as-needed basis to servers.
-- Make a secret branch that is only stored locally and is private, i.e. with non scrubbed deets.
