@@ -17,8 +17,7 @@ restart user session
   (su username or logout)
 
 # Setup SSH
-
-  # on client system:
+# on client system:
 ssh-keygen -t rsa -b 4096
 
   # on server
