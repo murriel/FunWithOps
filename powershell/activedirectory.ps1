@@ -16,9 +16,6 @@ Get-ADComputer -Filter * -Property * -SearchBase "OU=Windows 7 Desktops, OU=MyOU
 Get-ADComputer -Filter * -Property * -SearchBase "OU=Windows 7 Desktops, OU=MyOU, DC=mydomain, DC=local" | Sort-Object Name |Format-Table CanonicalName, Name, IPv4Address, OperatingSystemVersion, OperatingSystem, Created  # OperatingSystemServicePack, OperatingSystemVersion -Wrap -Auto
 
 
-
-
-
 ################################################
 
 #### Get Profile Names

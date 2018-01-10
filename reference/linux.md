@@ -23,7 +23,9 @@ Re-run a command from history
 !n 	(command # "n")
 
 # SSH and scp
-ssh-keygen -lf .ssh/somekey.pub
+ssh-keygen -lf ~/.ssh/somekey.pub
+ssh-keygen -E md5 -lf ~/.ssh/key.pub
+
 scp -i <keyfile> sourcefile user@host:/path/to/dest
 <!-- add stuff on ssh agent forwarding here -->
 ssh-add
@@ -32,7 +34,7 @@ ssh -A
 # Size Issues
 
 ## Temp partition too small
-dd if=/dev   of=/ussr/temp-disk # get teh final command for this?
+dd if=/dev   of=/ussr/temp-disk # get the final command for this?
 umount /tmp
 mount -t ext3 -o rw,noexec,nosuid,loop /usr/temp-disk /tmp
 chmod 1777 /tmp

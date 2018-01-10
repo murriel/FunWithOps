@@ -9,7 +9,6 @@ The primary purpose for now is to serve as a personal collection of resources. I
 
 More to come as new content is developed and as I extract useful information from sets of documentation and notes that I have accumulated over the years.
 
-
 # To-Do's
 - Table of contents
 - Need to get organized and spend a weekend cleaning up this repo

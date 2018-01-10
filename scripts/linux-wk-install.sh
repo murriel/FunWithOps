@@ -10,13 +10,14 @@
 
 # Setup sudo
 su -
+echo 'select vi when you update alternatives!'
 update-alternatives --config editor
-  select vi # (BECAUSE VI)
+
 usermod -a -G sudo $USERNAME
-  # if you don't add the -a to append you will wipe out the user's other groups
+# if you don't add the -a to append you will wipe out the user's other groups
 
 # Setup non-free network drivers
-  echo 'deb http://httpredir.debian.org/debian/ jessie main contrib non-free' >> /etc/apt/sources.list
+  echo 'deb http://httpredair.debian.org/debian/ jessie main contrib non-free' >> /etc/apt/sources.list
 
 # Update the list of available packages and install the firmware-iwlwifi package:
   apt-get update && apt-get install firmware-iwlwifi
@@ -24,11 +25,11 @@ usermod -a -G sudo $USERNAME
 # As the iwlwifi module is automatically loaded for supported devices, reinsert this module to access installed firmware:
   modprobe -r iwlwifi ; modprobe iwlwifi
 
-# Setup SSH
-  # on client system:
+# Setup SSH on client system:
 ssh-keygen -t rsa -b 4096
+# for github 
 
-  # on server
+# on server
 vi /etc/ssh/sshd_config
   PermitRootLogin no
 
