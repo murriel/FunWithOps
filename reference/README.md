@@ -1,6 +1,5 @@
 # Overview
-Scripts for your everyday installations.
-
+General reference notes
 
 # TOC
 - linux workstation
@@ -8,4 +7,3 @@ Scripts for your everyday installations.
 - windows workstation
 
 # To-Do
-Linkify TOC
