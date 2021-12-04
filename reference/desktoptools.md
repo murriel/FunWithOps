@@ -8,7 +8,6 @@ sudo umount /dev/sdb1
 sudo mkfs -t vfat /dev/sdb1
 sudo eject /dev/sdb1
 
-
 # ISO to USB
 inputpath=</path/to/iso>
 outputpath=</path/to/usb>
