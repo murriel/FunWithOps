@@ -1,3 +1,5 @@
+# DEPRECATED REPLACE WITH SOME ANSIBLE 
+
  #!/bin/bash
 
 #######################################
